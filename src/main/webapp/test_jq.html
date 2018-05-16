@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script>
+        var a = $('#test-link');
+        $(document).on('ready', function () {
+            a.on('click', function () {
+                alert('submit!');
+            });
+        });
+    </script>
+</head>
+<body>
+<script type="text/javascript">
+    function doRegister(){
+        var a = $('#test-link');
+        alert(a.innerText);
+        $(document).on('ready', function () {
+            a.on('click', function () {
+            alert('submit!');
+        });
+    });
+    }
+</script>
+    <form id="user_info"  style="display: table" onsubmit="return doRegister()">
+        用户名：<input type="text" id="usernme">
+        密码:<input type="password" id="password">
+        <p></p>
+        <input type="submit" id="submit">
+    </form>
+    <ul id="ul">
+        <a id="test-link" href="#0">点我试试</a>
+        <li id="li">*************</li>
+    </ul>
+</body>
+</html>
