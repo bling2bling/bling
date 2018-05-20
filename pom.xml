@@ -244,7 +244,11 @@
       <artifactId>jedis</artifactId>
       <version>2.9.0</version>
     </dependency>
-
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-validator</artifactId>
+      <version>5.4.2.Final</version>
+    </dependency>
 
 
   </dependencies>
@@ -280,6 +284,7 @@
         </configuration>
       </plugin>
 
+      <!-- geelynote maven的核心插件之-complier插件默认只支持编译Java 1.4，因此需要加上支持高版本jre的配置，在pom.xml里面加上 增加编译插件 -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>

@@ -9,6 +9,7 @@ import com.bling.service.IUserService;
 import com.bling.util.MD5Util;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
 
@@ -29,10 +30,9 @@ public class UserServiceImpl implements IUserService{
     public ServerResponse<User> login(String username, String password) {
         int resultCount = userMapper.checkUsername(username);
         if(resultCount == 0 ){
-            String msg=username+password+"***用户名不存在";
+            String msg="用户名不存在";
             return ServerResponse.createByErrorMessage(msg);
         }
-
         String md5Password = MD5Util.MD5EncodeUtf8(password);
         User user  = userMapper.selectLogin(username,md5Password);
         if(user == null){
@@ -42,17 +42,6 @@ public class UserServiceImpl implements IUserService{
         user.setPassword(org.apache.commons.lang3.StringUtils.EMPTY);
         return ServerResponse.createBySuccess("登录成功",user);
     }
-
-    public ServerResponse<User> checkUsername(String username){
-        int resultCount = userMapper.checkUsername(username);
-        if(resultCount == 0 ){
-            return ServerResponse.createByErrorMessage("用户名不存在");
-        }else{
-            return null;
-        }
-    }
-
-
 
 
     public ServerResponse<String> register(User user) {

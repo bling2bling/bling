@@ -31,6 +31,7 @@ public class UserController {
     @RequestMapping(value = "login.do",method = RequestMethod.POST)
     @ResponseBody
     public ServerResponse<User> login(String username, String password, HttpSession session) {
+        System.out.println("**********************");
             if (username == null) {
                 return null;
             }
@@ -72,7 +73,6 @@ public class UserController {
         }
         return iUserService.register(user);
     }
-
 
     @RequestMapping(value = "check_valid.do",method = RequestMethod.POST)
     @ResponseBody
@@ -158,34 +158,5 @@ public class UserController {
         }
         return iUserService.getInformation(currentUser.getId());
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

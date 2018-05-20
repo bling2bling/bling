@@ -10,7 +10,8 @@ public enum ResponseCode {
     USERNAME_ILLEGAL(11,"用户名必须是长度6~10的字母或数字"),
     PASSWORD_ILLEGAL(12,"密码必须是长度6~10的字母或数字"),
     EMAIL_ILLEGAL(13,"不合法的邮箱格式"),
-    PHONE_ILLEGAL(14,"不合法的手机格式");
+    PHONE_ILLEGAL(14,"不合法的手机格式"),
+    STATUS_ILLEGAL(15,"状态只能为0或1（0：使用中；1：不使用）");
     private final int code;
     private final String desc;
     ResponseCode(int code,String desc)

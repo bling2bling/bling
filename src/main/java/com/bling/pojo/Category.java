@@ -1,14 +1,23 @@
 package com.bling.pojo;
 
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
 import java.util.Date;
 
 public class Category {
+
     private Integer id;
 
+    @NotNull(message = "品类编号不能为空")
     private Integer categoryId;
 
+    @NotNull(message = "品类名称不能为空")
     private String categoryName;
 
+    @Min(value=0)
+    @Max(value = 1)
     private Integer status;
 
     private String detail;
