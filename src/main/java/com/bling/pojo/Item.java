@@ -7,8 +7,6 @@ public class Item {
 
     private Integer itemId;
 
-    private Integer productId;
-
     private Integer categoryId;
 
     private String name;
@@ -49,10 +47,9 @@ public class Item {
 
     private String dresserImages;
 
-    public Item(Integer id, Integer itemId, Integer productId, Integer categoryId, String name, String subtitle, String detail, Date createTime, Date updateTime, String size, String color, String length, String width, String higth, String weight, Integer price, Integer stock, Integer scaling, Integer x, Integer y, String mainImage, String subImages, String dresserImages) {
+    public Item(Integer id, Integer itemId, Integer categoryId, String name, String subtitle, String detail, Date createTime, Date updateTime, String size, String color, String length, String width, String higth, String weight, Integer price, Integer stock, Integer scaling, Integer x, Integer y, String mainImage, String subImages, String dresserImages) {
         this.id = id;
         this.itemId = itemId;
-        this.productId = productId;
         this.categoryId = categoryId;
         this.name = name;
         this.subtitle = subtitle;
@@ -93,14 +90,6 @@ public class Item {
 
     public void setItemId(Integer itemId) {
         this.itemId = itemId;
-    }
-
-    public Integer getProductId() {
-        return productId;
-    }
-
-    public void setProductId(Integer productId) {
-        this.productId = productId;
     }
 
     public Integer getCategoryId() {

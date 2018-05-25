@@ -2,6 +2,8 @@ package com.bling.dao;
 
 import com.bling.pojo.Category;
 
+import java.util.ArrayList;
+
 public interface CategoryMapper {
     int deleteByPrimaryKey(Integer id);
 
@@ -14,4 +16,6 @@ public interface CategoryMapper {
     int updateByPrimaryKeySelective(Category record);
 
     int updateByPrimaryKey(Category record);
+
+    ArrayList selectAllCategory();
 }

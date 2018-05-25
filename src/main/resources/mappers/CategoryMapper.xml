@@ -26,12 +26,12 @@
     where id = #{id,jdbcType=INTEGER}
   </delete>
   <insert id="insert" parameterType="com.bling.pojo.Category" >
-    insert into category (id, category_id, category_name,
-      status, detail, create_time, 
+    insert into category (category_name,
+      status, detail, create_time,
       update_time)
-    values (#{id,jdbcType=INTEGER}, #{categoryId,jdbcType=INTEGER}, #{categoryName,jdbcType=VARCHAR}, 
-      #{status,jdbcType=INTEGER}, #{detail,jdbcType=VARCHAR}, now (),
-      now ())
+    values (#{categoryName,jdbcType=VARCHAR},
+      #{status,jdbcType=INTEGER}, #{detail,jdbcType=VARCHAR}, now(),
+      now())
   </insert>
   <insert id="insertSelective" parameterType="com.bling.pojo.Category" >
     insert into category
@@ -101,7 +101,7 @@
         create_time = #{createTime,jdbcType=TIMESTAMP},
       </if>
       <if test="updateTime != null" >
-        update_time = now(),
+        update_time = #{now(),jdbcType=TIMESTAMP},
       </if>
     </set>
     where id = #{id,jdbcType=INTEGER}
@@ -116,4 +116,9 @@
       update_time = now()
       where id = #{id,jdbcType=INTEGER}
   </update>
+  <select id="selectAllCategory" resultMap="BaseResultMap">
+    SELECT
+    <include refid="Base_Column_List" />
+    from category
+  </select>
 </mapper>

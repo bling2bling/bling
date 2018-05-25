@@ -1,6 +1,7 @@
 package com.bling.service.impl;
 
 import com.bling.common.Const;
+import com.bling.common.ResponseCode;
 import com.bling.common.ServerResponse;
 import com.bling.common.TokenCache;
 import com.bling.dao.UserMapper;
@@ -12,9 +13,11 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
+import org.springframework.web.servlet.ModelAndView;
 
 
 import java.util.UUID;
+import java.util.regex.Pattern;
 
 /**
  * Created by leinan
@@ -31,12 +34,12 @@ public class UserServiceImpl implements IUserService{
         int resultCount = userMapper.checkUsername(username);
         if(resultCount == 0 ){
             String msg="用户名不存在";
-            return ServerResponse.createByErrorMessage(msg);
+            return ServerResponse.createByErrorCodeMessage(ResponseCode.USER_INVALID.getCode(),ResponseCode.USER_INVALID.getDesc());
         }
         String md5Password = MD5Util.MD5EncodeUtf8(password);
         User user  = userMapper.selectLogin(username,md5Password);
         if(user == null){
-            return ServerResponse.createByErrorMessage("密码错误");
+            return ServerResponse.createByErrorCodeMessage(ResponseCode.PWD_ERROR.getCode(),ResponseCode.PWD_ERROR.getDesc());
         }
 
         user.setPassword(org.apache.commons.lang3.StringUtils.EMPTY);
@@ -63,15 +66,25 @@ public class UserServiceImpl implements IUserService{
         }
 /*检验用户名和email是否合法*/
     public ServerResponse<String> checkValid(String str,String type){
+        Pattern name=Pattern.compile("^[A-Za-z1-9_]{6,10}$");
+        Pattern email=Pattern.compile("^[\\w-]+@[\\w-]+(\\.[\\w-]+)+$");
         if(org.apache.commons.lang3.StringUtils.isNotBlank(type)){
             //开始校验
             if(Const.USERNAME.equals(type)){
+                if(!name.matcher(str).matches()){
+                    ServerResponse response =ServerResponse.createByErrorCodeMessage(ResponseCode.USERNAME_ILLEGAL.getCode(),ResponseCode.USERNAME_ILLEGAL.getDesc());
+                    return response;
+                }
                 int resultCount = userMapper.checkUsername(str);
                 if(resultCount > 0 ){
                     return ServerResponse.createByErrorMessage("用户名已存在");
                 }
             }
             if(Const.EMAIL.equals(type)){
+                if(!email.matcher(str).matches()){
+                    ServerResponse response =ServerResponse.createByErrorCodeMessage(ResponseCode.EMAIL_ILLEGAL.getCode(),ResponseCode.EMAIL_ILLEGAL.getDesc());
+                    return response;
+                }
                 int resultCount = userMapper.checkEmail(str);
                 if(resultCount > 0 ){
                     return ServerResponse.createByErrorMessage("email已存在");
@@ -88,13 +101,13 @@ public class UserServiceImpl implements IUserService{
         ServerResponse validResponse = this.checkValid(username,Const.USERNAME);
         if(validResponse.isSuccess()){
             //用户不存在
-            return ServerResponse.createByErrorMessage("用户不存在");
+            return ServerResponse.createByErrorCodeMessage(ResponseCode.USER_INVALID.getCode(),ResponseCode.USER_INVALID.getDesc());
         }
         String question = userMapper.selectQuestionByUsername(username);
         if(org.apache.commons.lang3.StringUtils.isNotBlank(question)){
             return ServerResponse.createBySuccess(question);
         }
-        return ServerResponse.createByErrorMessage("找回密码的问题是空的");
+        return ServerResponse.createByErrorCodeMessage(ResponseCode.QUESTION_NULL.getCode(),ResponseCode.QUESTION_NULL.getDesc());
     }
 
     public ServerResponse<String> checkAnswer(String username,String question,String answer){

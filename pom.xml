@@ -201,6 +201,19 @@
       <version>0.9.4</version>
     </dependency>
 
+    <!--解决jsp的传入-->
+    <dependency>
+      <groupId>jstl</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.1.2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>taglibs</groupId>
+      <artifactId>standard</artifactId>
+      <version>1.1.2</version>
+    </dependency>
+
 
     <!-- alipay -->
     <dependency>

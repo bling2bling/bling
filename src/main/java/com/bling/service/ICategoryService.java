@@ -1,12 +1,12 @@
 package com.bling.service;
 
-import com.bling.common.ServerResponse;
-import com.bling.dao.CategoryMapper;
 import com.bling.pojo.Category;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+
+import java.util.ArrayList;
 
 public interface ICategoryService {
+    ArrayList getCategoryList();
 
-    ServerResponse addCategory(Category category);
+    int addCategory(Category category);
 }
+
