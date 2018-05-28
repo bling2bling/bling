@@ -1,22 +1,14 @@
 package com.bling.service.impl;
 
-import com.bling.common.Const;
 import com.bling.common.ServerResponse;
 import com.bling.dao.StaffMapper;
-import com.bling.dao.UserMapper;
 import com.bling.pojo.Staff;
-import com.bling.pojo.User;
 import com.bling.service.IStaffUserService;
 import com.bling.util.MD5Util;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Isolation;
-import org.springframework.transaction.annotation.Propagation;
-import org.springframework.transaction.annotation.Transactional;
 
-/**
- * created by leinan
- */
+
 @Service("iStaffUserService")
 public class StaffUserviceImpl implements IStaffUserService {
 

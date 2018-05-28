@@ -5,7 +5,7 @@ import java.util.Date;
 public class Order {
     private Integer id;
 
-    private Integer orderId;
+    private String orderId;
 
     private Integer userId;
 
@@ -19,7 +19,18 @@ public class Order {
 
     private Date updateTime;
 
-    public Order(Integer id, Integer orderId, Integer userId, Integer paymentId, Integer paymentStatus, Integer status, Date createTime, Date updateTime) {
+    //用于接受订单内对应的商品详情
+//    private List<Order_Item> order_items;
+//
+//    public List<Order_Item> getOrder_items(){
+//        return order_items;
+//    }
+//
+//    public void setOrder_items(List<Order_Item> order_items){
+//        this.order_items = order_items;
+//    }
+
+    public Order(Integer id, String orderId, Integer userId, Integer paymentId, Integer paymentStatus, Integer status, Date createTime, Date updateTime) {
         this.id = id;
         this.orderId = orderId;
         this.userId = userId;
@@ -42,11 +53,11 @@ public class Order {
         this.id = id;
     }
 
-    public Integer getOrderId() {
+    public String getOrderId() {
         return orderId;
     }
 
-    public void setOrderId(Integer orderId) {
+    public void setOrderId(String orderId) {
         this.orderId = orderId;
     }
 

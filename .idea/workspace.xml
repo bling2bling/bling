@@ -7,261 +7,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39c17033-b551-4b41-8055-06bdee10f543" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bling/controller/staff/OrderManageController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bling/service/IOrderService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bling/service/impl/OrderServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/category/category_list.jsp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/nolimit/order_index.jsp" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/bling_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/bling_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fd719f6e-f93c-4d92-885b-fdfe96d0ad9f.xml" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bling/controller/staff/ItemManageController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bling/model/Item.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bling/service/IFileService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bling/service/IItemService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bling/service/impl/FileServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bling/service/impl/ItemServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/item/add_item.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/item/item_info_unchange1.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/item/item_info_unchange2.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/item/item_list1.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/item/item_list2.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/item/update_item_info.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/order/order_detail.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/order/order_update.jsp" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5181c025-5269-45a9-b286-8fdf6d4a6633.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/5181c025-5269-45a9-b286-8fdf6d4a6633.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bling.iml" afterPath="$PROJECT_DIR$/bling.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bling/common/ResponseCode.java" afterPath="$PROJECT_DIR$/src/main/java/com/bling/common/ResponseCode.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bling/controller/staff/CategoryManageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bling/controller/staff/CategoryManageController.java" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bling/controller/staff/OrderManageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bling/controller/staff/OrderManageController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bling/controller/staff/StaffController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bling/controller/staff/StaffController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bling/controller/user/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bling/controller/user/UserController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bling/dao/CategoryMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bling/dao/CategoryMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bling/pojo/Item.java" afterPath="$PROJECT_DIR$/src/main/java/com/bling/pojo/Item.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bling/service/ICategoryService.java" afterPath="$PROJECT_DIR$/src/main/java/com/bling/service/ICategoryService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bling/service/impl/CategoryServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/bling/service/impl/CategoryServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bling/dao/ItemMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bling/dao/ItemMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bling/dao/OrderMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bling/dao/OrderMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bling/dao/Order_ItemMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bling/dao/Order_ItemMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bling/dao/ShippingMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bling/dao/ShippingMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bling/pojo/Order.java" afterPath="$PROJECT_DIR$/src/main/java/com/bling/pojo/Order.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bling/pojo/Order_Item.java" afterPath="$PROJECT_DIR$/src/main/java/com/bling/pojo/Order_Item.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bling/pojo/Shipping.java" afterPath="$PROJECT_DIR$/src/main/java/com/bling/pojo/Shipping.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bling/service/IOrderService.java" afterPath="$PROJECT_DIR$/src/main/java/com/bling/service/IOrderService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bling/service/IStaffUserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/bling/service/IStaffUserService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bling/service/IUserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/bling/service/IUserService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bling/service/impl/OrderServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/bling/service/impl/OrderServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bling/service/impl/StaffUserviceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/bling/service/impl/StaffUserviceImpl.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bling/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/bling/service/impl/UserServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/datasource.properties" afterPath="$PROJECT_DIR$/src/main/resources/datasource.properties" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ItemMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ItemMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/login.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/Order_ItemMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/Order_ItemMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/paymentMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/paymentMapper.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/main.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/main.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/welcome.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/component.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/demo.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/mystyle1.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/mystyle1.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/normalize.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/demo-1-bg.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/login_ico.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/EasePack.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/TweenLite.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/demo-1.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/html5.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/login.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/login.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/rAF.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/main.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling.war" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/META-INF/MANIFEST.MF" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/CartMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/CategoryMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/ItemMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/OrderMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/Order_ItemMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/ProductMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/ShippingMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/StaffMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/UserMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/applicationContext-datasource.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/applicationContext.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/bling.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/common/Const.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/common/ResponseCode.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/common/ServerResponse.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/common/TokenCache$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/common/TokenCache.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/controller/staff/CategoryManageController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/controller/staff/StaffController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/controller/user/UserController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/dao/CartMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/dao/CategoryMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/dao/ItemMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/dao/OrderMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/dao/Order_ItemMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/dao/ProductMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/dao/ShippingMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/dao/StaffMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/dao/UserMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/dao/paymentMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/pojo/Cart.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/pojo/Category.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/pojo/Item.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/pojo/Order.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/pojo/Order_Item.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/pojo/Product.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/pojo/Shipping.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/pojo/Staff.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/pojo/User.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/pojo/payment.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/service/ICategoryService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/service/IStaffUserService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/service/IUserService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/service/impl/CategoryServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/service/impl/StaffUserviceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/service/impl/UserServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/util/MD5Util.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/util/PropertiesUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/com/bling/util/ValidateFilter.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/datasource.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/generatorConfig.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/logback.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/mappers/CartMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/mappers/CategoryMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/mappers/ItemMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/mappers/OrderMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/mappers/Order_ItemMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/mappers/ProductMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/mappers/ShippingMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/mappers/StaffMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/mappers/UserMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/mappers/paymentMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/paymentMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/classes/zfbinfo.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/dispatcher-servlet.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/index.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/aspectjrt-1.6.11.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/aspectjweaver-1.7.3.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/classmate-1.3.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/commons-codec-1.10.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/commons-collections-3.2.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/commons-configuration-1.10.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/commons-dbcp-1.4.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/commons-fileupload-1.2.2.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/commons-io-2.0.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/commons-lang-2.6.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/commons-lang3-3.5.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/commons-net-3.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/commons-pool-1.5.4.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/commons-pool2-2.4.2.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/core-2.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/gson-2.3.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/guava-20.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/hamcrest-core-1.3.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/hashids-1.0.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/hibernate-validator-5.4.2.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/jackson-core-asl-1.9.12.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/jackson-mapper-asl-1.9.12.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/jedis-2.9.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/joda-time-2.3.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/jsqlparser-0.9.4.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/junit-4.12.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/logback-classic-1.1.2.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/logback-core-1.1.2.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/mybatis-3.4.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/mybatis-paginator-1.2.17.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/mysql-connector-java-5.1.6.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/pagehelper-4.1.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/slf4j-api-1.7.6.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/spring-oxm-4.0.0.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/spring-test-4.0.0.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/tomcat-servlet-api-8.5.29.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/staff/index.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/staff/login.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/staff/main.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/user/index.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/user/welcome.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/WEB-INF/web.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/css/component.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/css/demo.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/css/mystyle1.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/css/mystyle2.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/css/mystyle3.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/css/normalize.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/img/demo-1-bg.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/img/login_ico.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/index.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/js/EasePack.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/js/TweenLite.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/js/demo-1.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/js/html5.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/js/login.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/js/rAF.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/main.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/BlingBling/test_jq.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CartMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CategoryMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ItemMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OrderMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Order_ItemMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProductMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ShippingMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StaffMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UserMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext-datasource.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bling.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/common/Const.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/common/ResponseCode.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/common/ServerResponse.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/common/TokenCache$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/common/TokenCache.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/controller/staff/CategoryManageController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/controller/staff/StaffController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/controller/user/UserController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/dao/CartMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/dao/CategoryMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/dao/ItemMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/dao/OrderMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/dao/Order_ItemMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/dao/ProductMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/dao/ShippingMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/dao/StaffMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/dao/UserMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/dao/paymentMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/pojo/Cart.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/pojo/Category.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/pojo/Item.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/pojo/Order.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/pojo/Order_Item.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/pojo/Product.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/pojo/Shipping.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/pojo/Staff.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/pojo/User.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/pojo/payment.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/service/ICategoryService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/service/IStaffUserService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/service/IUserService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/service/impl/CategoryServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/service/impl/StaffUserviceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/service/impl/UserServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/util/MD5Util.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/util/PropertiesUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/bling/util/ValidateFilter.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datasource.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/CartMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/CategoryMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/ItemMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/OrderMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/Order_ItemMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/ProductMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/ShippingMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/StaffMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/UserMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/paymentMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/paymentMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zfbinfo.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/nolimit/order_index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/nolimit/order_index.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/nolimit/staffIsLogin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/nolimit/staffIsLogin.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -288,33 +73,14 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="bling@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="bling@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="bling@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="bling: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
     </expand>
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="bling" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="order_index.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/nolimit/order_index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -333,6 +99,11 @@
       <find>product</find>
       <find>product_id</find>
       <find>id</find>
+      <find>OrderId</find>
+      <find>order_id</find>
+      <find>order</find>
+      <find>selectItemByOrder</find>
+      <find>orderId</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -352,9 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/bling/common/ServerResponse.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -368,16 +136,44 @@
         <option value="$PROJECT_DIR$/src/main/resources/mappers/ItemMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/bling/pojo/Item.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bling/controller/staff/CategoryManageController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bling/service/IOrderService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bling/service/impl/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/order/order_index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bling/controller/staff/StaffController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/nolimit/staffIsLogin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bling/controller/staff/OrderManageController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/category/category_list.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/nolimit/add_category.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/order/order_search.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/paymentMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/nolimit/staffIsLogin.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/nolimit/order_index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bling/dao/OrderMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bling/dao/Order_ItemMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bling/pojo/Order_Item.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bling/pojo/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bling/pojo/Shipping.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/Order_ItemMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/category/upload.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bling/service/IOrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bling/dao/ShippingMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bling/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bling/controller/staff/OrderManageController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/order/order_update.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/order/order_detail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/item/add_item.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/item/item_info_unchange1.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/item/item_info_unchange2.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/item/item_list1.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/item/item_list2.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/item/update_item_info.jsp" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bling/controller/staff/ItemManageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bling/controller/staff/StaffController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bling/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bling/service/impl/ItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bling/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bling/service/impl/StaffUserviceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bling/service/IStaffUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bling/service/impl/FileServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -412,7 +208,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="318" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
@@ -433,8 +230,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -494,6 +289,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bling" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bling" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -511,7 +316,15 @@
               <item name="bling" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bling" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mappers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bling" type="b2602c69:ProjectViewProjectNode" />
@@ -519,7 +332,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="nolimit" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -527,6 +339,8 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -540,7 +354,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/nolimit" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/bling/dao" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/staff" />
+      <recent name="$PROJECT_DIR$/src/main/resources/mappers" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/bling/model" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/bling/pojo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -732,42 +550,55 @@
       <workItem from="1526970278865" duration="3493000" />
       <workItem from="1527169721952" duration="2713000" />
       <workItem from="1527209333778" duration="10000" />
-      <workItem from="1527234622834" duration="4877000" />
+      <workItem from="1527234622834" duration="14822000" />
+      <workItem from="1527302164562" duration="869000" />
+      <workItem from="1527344475863" duration="4522000" />
+      <workItem from="1527469599224" duration="13491000" />
+      <workItem from="1527507588393" duration="950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37453000" />
+    <option name="totallyTimeSpent" value="67230000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16094421" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16094421" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39911634" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15022092" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27110156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18998528" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2846924" sideWeight="0.49484536" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27825466" sideWeight="0.5051546" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -780,34 +611,34 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.49713877" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16094421" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16094421" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39911634" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15022092" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27110156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18998528" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.49713877" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2811159" sideWeight="0.49484536" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27825466" sideWeight="0.5051546" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -843,7 +674,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -851,397 +684,166 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fd719f6e-f93c-4d92-885b-fdfe96d0ad9f/console.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/dao/Order_ItemMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="285">
+          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/Order_ItemMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding>
+            <element signature="n#insert#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <marker date="1527473498746" expanded="false" signature="1501:1607" ph="select from order_item" />
+            <marker date="1527473498746" expanded="true" signature="1718:1835" ph="select from order_item" />
+            <marker date="1527473498746" expanded="true" signature="1922:1982" ph="delete from order_item... " />
+            <marker date="1527473498746" expanded="true" signature="4710:5825" ph="update order_item... " />
+            <marker date="1527473498746" expanded="true" signature="5920:6496" ph="update order_item... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/df51fe4c/5181c025-5269-45a9-b286-8fdf6d4a6633/bling.shipping">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="2" lean-forward="false" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/user/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1458">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar!/org/gjt/mm/mysql/Driver.class">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/category/upload.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+        <state relative-caret-position="315">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/service/IUserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/user/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="-160">
+          <caret line="166" column="31" lean-forward="true" selection-start-line="166" selection-start-column="31" selection-end-line="166" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.0.RELEASE/spring-webmvc-4.0.0.RELEASE-sources.jar!/org/springframework/web/servlet/ModelAndView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="71" column="11" lean-forward="false" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/dao/StaffMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/StaffMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#insert#1;n#mapper#0;n#!!top" expanded="false" />
-            <element signature="n#select#1;n#mapper#0;n#!!top" expanded="false" />
-            <marker date="1526526512000" expanded="true" signature="1053:1215" ph="insert into staff... " />
-            <marker date="1526526512000" expanded="false" signature="2574:2633" ph="select count... staff" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/controller/user/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="49" column="33" lean-forward="true" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding>
-            <element signature="n#delete#0;n#mapper#0;n#!!top" expanded="false" />
-            <element signature="n#insert#0;n#mapper#0;n#!!top" expanded="false" />
-            <element signature="n#insert#1;n#mapper#0;n#!!top" expanded="false" />
-            <element signature="n#update#0;n#mapper#0;n#!!top" expanded="false" />
-            <element signature="n#update#1;n#mapper#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/common/ServerResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/service/impl/StaffUserviceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324">
-          <caret line="20" column="61" lean-forward="true" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/service/IStaffUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/dao/CartMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/dao/ProductMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/service/impl/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/pojo/Shipping.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-209">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="216">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-682">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="260">
+          <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
           <folding>
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#delete#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" expanded="false" />
             <element signature="n#insert#1;n#mapper#0;n#!!top" expanded="false" />
             <element signature="n#update#0;n#mapper#0;n#!!top" expanded="false" />
             <element signature="n#update#1;n#mapper#0;n#!!top" expanded="false" />
-            <element signature="n#select#1;n#mapper#0;n#!!top" expanded="false" />
-            <marker date="1526394416000" expanded="true" signature="2324:2424" ph="select from user" />
-            <marker date="1526394416000" expanded="true" signature="2511:2565" ph="delete from user... " />
-            <marker date="1526394416000" expanded="true" signature="2642:2986" ph="insert into user... " />
-            <marker date="1526394416000" expanded="true" signature="9767:9819" ph="select count... user" />
-            <marker date="1526394416000" expanded="true" signature="9912:10072" ph="SELECT -- *?... user" />
-            <marker date="1526394416000" expanded="true" signature="10175:10241" ph="select quest... user" />
-            <marker date="1526394416000" expanded="true" signature="10324:10446" ph="SELECT count... user" />
-            <marker date="1526394416000" expanded="true" signature="10525:10623" ph="update user... " />
-            <marker date="1526394416000" expanded="true" signature="10708:10797" ph="SELECT count... user" />
-            <marker date="1526394416000" expanded="true" signature="10888:10970" ph="select count... bling_user" />
+            <marker date="1527471897804" expanded="true" signature="2434:2537" ph="select from order" />
+            <marker date="1527471897804" expanded="false" signature="2673:3128" ph="SELECT o.ord... order" />
+            <marker date="1527471897804" expanded="true" signature="3266:3379" ph="SELECT FROM order" />
+            <marker date="1527471897804" expanded="true" signature="3466:3523" ph="delete from `order`... " />
+            <marker date="1527471897804" expanded="true" signature="3601:3987" ph="insert into `order`... " />
+            <marker date="1527471897804" expanded="true" signature="5553:6331" ph="update `order`... " />
+            <marker date="1527471897804" expanded="true" signature="6421:6823" ph="update `order`... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/dao/ShippingMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1960">
-          <caret line="212" column="39" lean-forward="true" selection-start-line="212" selection-start-column="39" selection-end-line="212" selection-end-column="39" />
+        <state relative-caret-position="285">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="140" column="3" lean-forward="false" selection-start-line="140" selection-start-column="3" selection-end-line="140" selection-end-column="3" />
           <folding>
-            <element signature="n#dependency#29;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#30;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#31;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#32;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#33;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#34;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#35;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#36;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#dependency#37;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#resources#0;n#build#0;n#project#0;n#!!top" expanded="false" />
-            <element signature="n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#constructor#0;n#resultMap#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <marker date="1527491960628" expanded="true" signature="1263:1367" ph="select from shipping" />
+            <marker date="1527491960628" expanded="true" signature="1480:1595" ph="select from shipping" />
+            <marker date="1527491960628" expanded="true" signature="1682:1740" ph="delete from shipping... " />
+            <marker date="1527491960628" expanded="true" signature="4924:5366" ph="update shipping... " />
+            <marker date="1527491960628" expanded="true" signature="5463:5727" ph="update shipping... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/pojo/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1379">
-          <caret line="97" column="1" lean-forward="false" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/category/add_category.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/dao/CategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/datasource.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ItemMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-850">
-          <caret line="136" column="22" lean-forward="false" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="22" />
-          <folding>
-            <marker date="1527170146737" expanded="true" signature="2366:2466" ph="select from item" />
-            <marker date="1527170146737" expanded="true" signature="2553:2607" ph="delete from item... " />
-            <marker date="1527170146737" expanded="true" signature="2684:3622" ph="insert into item... " />
-            <marker date="1527170146737" expanded="true" signature="7160:9180" ph="update item... " />
-            <marker date="1527170146737" expanded="true" signature="9269:10251" ph="update item... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/df51fe4c/5181c025-5269-45a9-b286-8fdf6d4a6633/bling.cart">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5181c025-5269-45a9-b286-8fdf6d4a6633/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/pojo/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-876">
+        <state relative-caret-position="15">
           <caret line="92" column="5" lean-forward="false" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/category.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/Order_ItemMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="63" column="43" lean-forward="true" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
-          <folding>
-            <marker date="1526394418000" expanded="true" signature="1498:1604" ph="select from order_item" />
-            <marker date="1526394418000" expanded="true" signature="1691:1751" ph="delete from order_item... " />
-            <marker date="1526394418000" expanded="true" signature="1834:2388" ph="insert into order_item... " />
-            <marker date="1526394418000" expanded="true" signature="4478:5592" ph="update order_item... " />
-            <marker date="1526394418000" expanded="true" signature="5687:6262" ph="update order_item... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/test_jq.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/model/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-975">
-          <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-          <folding>
-            <marker date="1526990170000" expanded="true" signature="1097:1201" ph="select from category" />
-            <marker date="1526990170000" expanded="true" signature="1288:1346" ph="delete from category... " />
-            <marker date="1526990170000" expanded="true" signature="1427:1645" ph="insert into category... " />
-            <marker date="1526990170000" expanded="true" signature="3014:3692" ph="update category... " />
-            <marker date="1526990170000" expanded="true" signature="3785:4116" ph="update category... " />
-            <marker date="1526990170000" expanded="true" signature="4193:4258" ph="SELECT from category" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/df51fe4c/5181c025-5269-45a9-b286-8fdf6d4a6633/bling.order">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/df51fe4c/5181c025-5269-45a9-b286-8fdf6d4a6633/bling.order">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/service/IOrderService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ItemMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/service/ICategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        <state relative-caret-position="397">
+          <caret line="54" column="62" lean-forward="false" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="62" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <marker date="1527412068000" expanded="true" signature="2598:3402" ph="insert into item... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/pojo/Staff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-          <folding>
-            <element signature="e#888#889#0" expanded="false" />
-            <element signature="e#919#920#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/tomcat-servlet-api/8.5.29/tomcat-servlet-api-8.5.29-sources.jar!/javax/servlet/http/HttpSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
-          <caret line="157" column="18" lean-forward="false" selection-start-line="157" selection-start-column="18" selection-end-line="157" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/common/Const.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/controller/staff/StaffController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="65" column="27" lean-forward="true" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/order/order_index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/controller/staff/OrderManageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/service/impl/OrderServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/dao/ItemMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/service/impl/CategoryServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/controller/staff/CategoryManageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="52" column="30" lean-forward="false" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/nolimit/staffIsLogin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="-235">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/nolimit/add_category.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="60" lean-forward="false" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/category/category_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="56" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/category/upload.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1257,7 +859,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/item/add_item.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/item/item_info_unchange1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/item/item_info_unchange2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/item/item_list1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/item/item_list2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="61" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="19" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/item/update_item_info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="29" column="56" lean-forward="true" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/order/order_detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/order/order_update.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1265,26 +939,221 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/staff/main.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="64" lean-forward="false" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+        <state relative-caret-position="-12">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/nolimit/order_index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bling.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-917">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/datasource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/controller/staff/ItemManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/controller/staff/CategoryManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/controller/staff/StaffController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/controller/staff/OrderManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="47" lean-forward="false" selection-start-line="71" selection-start-column="47" selection-end-line="71" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/service/IFileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/service/IItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="35" lean-forward="false" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
+            <element signature="e#1207#1208#0" expanded="true" />
+            <element signature="e#1275#1276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/service/IOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/service/impl/StaffUserviceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/service/IStaffUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/service/ICategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/service/impl/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/service/impl/ItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bling/service/impl/FileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding />
         </state>
       </provider>

@@ -7,7 +7,7 @@ public class Shipping {
 
     private String shippingNumber;
 
-    private Integer orderId;
+    private String orderId;
 
     private String address;
 
@@ -21,7 +21,7 @@ public class Shipping {
 
     private Date updateTime;
 
-    public Shipping(Integer id, String shippingNumber, Integer orderId, String address, String reciver, String phone, Byte status, Date createTime, Date updateTime) {
+    public Shipping(Integer id, String shippingNumber, String orderId, String address, String reciver, String phone, Byte status, Date createTime, Date updateTime) {
         this.id = id;
         this.shippingNumber = shippingNumber;
         this.orderId = orderId;
@@ -53,11 +53,11 @@ public class Shipping {
         this.shippingNumber = shippingNumber == null ? null : shippingNumber.trim();
     }
 
-    public Integer getOrderId() {
+    public String getOrderId() {
         return orderId;
     }
 
-    public void setOrderId(Integer orderId) {
+    public void setOrderId(String orderId) {
         this.orderId = orderId;
     }
 

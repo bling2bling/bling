@@ -2,6 +2,8 @@ package com.bling.dao;
 
 import com.bling.pojo.Order_Item;
 
+import java.util.ArrayList;
+
 public interface Order_ItemMapper {
     int deleteByPrimaryKey(Integer id);
 
@@ -14,4 +16,6 @@ public interface Order_ItemMapper {
     int updateByPrimaryKeySelective(Order_Item record);
 
     int updateByPrimaryKey(Order_Item record);
+
+    ArrayList<Order_Item> selectItemByOrder(String OrderID);
 }

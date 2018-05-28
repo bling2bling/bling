@@ -10,18 +10,12 @@ import com.bling.service.IUserService;
 import com.bling.util.MD5Util;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-import org.springframework.validation.BindingResult;
-import org.springframework.validation.FieldError;
-import org.springframework.web.servlet.ModelAndView;
 
 
 import java.util.UUID;
 import java.util.regex.Pattern;
 
-/**
- * Created by leinan
- */
+
 @Service("iUserService")
 public class UserServiceImpl implements IUserService{
 

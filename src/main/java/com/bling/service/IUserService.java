@@ -3,9 +3,6 @@ package com.bling.service;
 import com.bling.common.ServerResponse;
 import com.bling.pojo.User;
 
-/**
- * Created by leinan
- */
 public interface IUserService {
 
     ServerResponse<User> login(String username, String password);

@@ -2,7 +2,6 @@ package com.bling.service;
 
 import com.bling.common.ServerResponse;
 import com.bling.pojo.Staff;
-import com.bling.pojo.User;
 
 public interface IStaffUserService {
 

@@ -2,6 +2,8 @@ package com.bling.dao;
 
 import com.bling.pojo.Order;
 
+import java.util.List;
+
 public interface OrderMapper {
     int deleteByPrimaryKey(Integer id);
 
@@ -14,4 +16,6 @@ public interface OrderMapper {
     int updateByPrimaryKeySelective(Order record);
 
     int updateByPrimaryKey(Order record);
+
+    Order selectByOrderNo(String order_id);
 }

@@ -15,9 +15,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpSession;
 
-/**
- * created by leinan
- */
 @Controller
 @RequestMapping(value = "/staff/")
 public class StaffController {

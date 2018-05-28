@@ -1211,7 +1211,7 @@
     <column id="281" parent="234" name="order_id">
       <Position>2</Position>
       <Comment>订单id,一个用户可能有多个订单</Comment>
-      <DataType>int(11)|0</DataType>
+      <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -1273,7 +1273,7 @@
     <column id="290" parent="235" name="order_id">
       <Position>2</Position>
       <Comment>订单id</Comment>
-      <DataType>bigint(20)|0</DataType>
+      <DataType>varchar(20)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="291" parent="235" name="shipping_id">
@@ -1344,7 +1344,7 @@
     <column id="302" parent="236" name="order_id">
       <Position>2</Position>
       <Comment>对应的订单id</Comment>
-      <DataType>int(11)|0</DataType>
+      <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -1397,7 +1397,7 @@
     <column id="310" parent="237" name="order_id">
       <Position>3</Position>
       <Comment>订单id</Comment>
-      <DataType>int(11)|0</DataType>
+      <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
