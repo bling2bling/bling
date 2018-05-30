@@ -8,6 +8,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 
+/**
+ * created by leinan
+ */
 @Service("iItemService")
 public class ItemServiceImpl implements IItemService{
 
@@ -27,6 +30,10 @@ public class ItemServiceImpl implements IItemService{
         return itemMapper.getItemListByCategoryId(categoryId);
     }
 
+    public ArrayList<com.bling.model.Item> getAllItem(){
+        return itemMapper.getAllItem();
+    }
+
     public com.bling.model.Item getItemInfoById(int id){
 
         return itemMapper.getItemInfoById(id);
@@ -38,5 +45,10 @@ public class ItemServiceImpl implements IItemService{
             return true;
         }
         return false;
+    }
+
+    @Override
+    public ArrayList<com.bling.model.Item> searchItem(String search) {
+        return itemMapper.searchItem(search);
     }
 }

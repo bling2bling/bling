@@ -304,4 +304,25 @@
     FROM item
     WHERE id=#{id,jdbcType=INTEGER}
   </select>
+
+  <select id="getAllItem" resultMap="BaseResultMap">
+    SELECT
+    <include refid="Base_Column_List" />
+    FROM item
+  </select>
+  
+  <select id="searchItem" resultMap="BaseResultMap" parameterType="String">
+    SELECT
+    <include refid="Base_Column_List" />
+    FROM item AS t1
+    <where>
+    <if test="_parameter!=null">
+    EXISTS (
+    SELECT * FROM item AS t2
+    WHERE t1.id=t2.id
+    AND t2.detail LIKE "%"#{search}"%" OR t1.subtitle LIKE "%"#{search}"%"
+    )
+    </if>
+    </where>
+  </select>
 </mapper>

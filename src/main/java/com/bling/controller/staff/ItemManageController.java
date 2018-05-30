@@ -15,6 +15,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
 
+/**
+ * created by leinan
+ */
 @Controller
 @RequestMapping(value = "/staff/item/")
 public class ItemManageController {
@@ -45,7 +48,9 @@ public class ItemManageController {
             item.setDresserImages(iFileService.saveImg(path+"/dresser/"+item.getCategoryId(),dresserimg));
             boolean response=iItemService.addItem(item);
             if(response==true) {
+                double price=(double)item.getPrice()/100;
                 model.addAttribute("item", item);
+                model.addAttribute("price", price);
                 String[] mainImgList = item.getMainImage().split(",");
                 model.addAttribute("mainImgList", mainImgList);
             }else{
@@ -103,7 +108,9 @@ public class ItemManageController {
             item.setDresserImages(iFileService.saveImg(path+"/dresser/"+item.getCategoryId(),dresserimg));
             boolean response=iItemService.updateItemById(item);
             if(response==true) {
+                double price=(double)item.getPrice()/100;
                 model.addAttribute("item", item);
+                model.addAttribute("price", price);
                 String[] mainImgList = item.getMainImage().split(",");
                 model.addAttribute("mainImgList", mainImgList);
             }else{

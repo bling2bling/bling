@@ -11,17 +11,21 @@
 <div id="head">
     <p class="head1">bling bling</p>
     <p class="head2">欢迎，${sessionScope.currentUser.username}</p>
-    <%--todo 退出--%>
     <p><a class="head3"href="login.jsp">退出</a></p>
 </div>
-<ul>
-    <li><a href="/staff/staff_main.do">后台首页</a></li>
+<ul id="navigator">
+    <li><a href="登录后首页.html">客户端</a></li>
     <li><a href="/nolimit/order_index.jsp">订单管理</a></li>
     <li><a href="/staff/category/category_list.do">品类管理</a></li>
-    <li><a href="/staff/product/product_list.do">商品管理</a></li>
+    <li><a href="/staff/item/item_list1.do">商品管理</a></li>
 </ul>
-<div>
-    <h1>商品分类管理</h1>
+<div id="content">
+    <script>
+        if("${errorMsg}"!=""){
+            alert("${errorMsg}");
+        }
+    </script>
+    这里是商品分类列表的页面
     <a href="/nolimit/add_category.jsp">新增分类</a>
     <p>商品列表</p>
     <table>

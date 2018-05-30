@@ -26,7 +26,7 @@
     <p><a class="head3" href="/staff/login.do">退出</a></p>
 </div>
 <ul id="navigator">
-    <li><a href="/staff/staff_main.do">后台首页</a></li>
+    <li><a href="登录后首页.html">客户端</a></li>
     <li><a href="/nolimit/order_index.jsp">订单管理</a></li>
     <li><a href="/staff/category/category_list.do">品类管理</a></li>
     <li><a href="/staff/item/item_list1.do">商品管理</a></li>
@@ -41,7 +41,7 @@
     <input name="id" value="${item.id}" hidden>
     name:<input type="text" name="name" value="${item.name}"><br>
     subtitle:<input type="text" name="subtitle" value="${item.subtitle}"><br>
-    价格：:<input type="text" name="price" value="${item.price}"><br>
+    价格：:<input type="text" name="price" value="${price}"><br>
     库存：<input type="text" name="stock" value="${item.stock}"><br>
     size:<input type="text " name="size" value="${item.size}"><br>
     color:<input type="text" name="color" value="${item.color}"><br>

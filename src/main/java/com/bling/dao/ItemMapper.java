@@ -20,5 +20,8 @@ public interface ItemMapper {
 
     ArrayList<com.bling.model.Item> getItemListByCategoryId(int categoryId);
 
+    ArrayList<com.bling.model.Item> getAllItem();
+    ArrayList<com.bling.model.Item> searchItem(String search);
+
     com.bling.model.Item getItemInfoById(int id);
 }

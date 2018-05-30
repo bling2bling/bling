@@ -29,7 +29,7 @@ public class Item {
 
     private String weight;
 
-    private Integer price;
+    private double price;
 
     private Integer stock;
 
@@ -59,7 +59,7 @@ public class Item {
         this.width = width;
         this.higth = higth;
         this.weight = weight;
-        this.price = price;
+        this.price = (double)price/100;
         this.stock = stock;
         this.scaling = scaling;
         this.x = x;
@@ -177,11 +177,11 @@ public class Item {
         this.weight = weight == null ? null : weight.trim();
     }
 
-    public Integer getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(Integer price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 

@@ -17,18 +17,17 @@
 <div id="head">
     <p class="head1">bling bling</p>
     <p class="head2">欢迎，${sessionScope.currentUser.username}</p>
-    <%--todo 退出--%>
-    <p><a class="head3"href="login.jsp">退出</a></p>
+    <p><a class="head3" href="/staff/login.do">退出</a></p>
 </div>
-<ul>
-    <li><a href="/staff/staff_main.do">后台首页</a></li>
+<ul id="navigator">
+    <li><a href="登录后首页.html">客户端</a></li>
     <li><a href="/nolimit/order_index.jsp">订单管理</a></li>
     <li><a href="/staff/category/category_list.do">品类管理</a></li>
     <li><a href="/staff/item/item_list1.do">商品管理</a></li>
 </ul>
 <div id="content">
         <tr><a href="/staff/item/add_item1.do">添加商品</a></tr><br>
-    <table style="text-align: center">
+    <table style="text-align: center" border="2px red" cellpadding="2px" cellspacing="2px">
             <tr>
                 <td></td>
                 <td>id</td>
@@ -43,7 +42,7 @@
         <c:forEach items="${item_list}" var="item">
             <tr>
                 <small>
-                    <td><a href="/staff/item/item_info_by_id.do?id=${item.id}"><img src="../../picture/main/${item.categoryId}/${item.mainImage[0]}"></img></a></td>
+                    <td><a href="/staff/item/item_info_by_id.do?id=${item.id}"><img src="../../picture/main/${item.categoryId}/${item.mainImage[0]}" style="border:outset bisque;width: 50px;height: 40px" onerror="this.src='../../picture/default.jpg'"></img></a></td>
                     <td>${item.id}</td>
                     <td>${item.categoryId}</td>
                     <td>${item.name}</td>
