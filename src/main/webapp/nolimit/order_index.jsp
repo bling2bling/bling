@@ -29,7 +29,7 @@
         <li><a href="/staff/staff_main.do">后台首页</a></li>
         <li><a href="/nolimit/order_index.jsp">订单管理</a></li>
         <li><a href="/staff/category/category_list.do">品类管理</a></li>
-        <li><a href="/staff/product/product_list.do">商品管理</a></li>
+        <li><a href="/staff/item/item_list1.do">商品管理</a></li>
     </ul>
     <div id="content">
         <h1>订单管理首页</h1>
